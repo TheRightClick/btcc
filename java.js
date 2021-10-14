@@ -36,7 +36,7 @@ function setAmount(data) {
         })
         //gets and set the innerText of the modal with the value
    let priceDisplay = document.getElementById("priceDisplay")
-   priceDisplay.innerText = amountDollar
+   priceDisplay.innerText = '$' + amountDollar
    
     }
 
